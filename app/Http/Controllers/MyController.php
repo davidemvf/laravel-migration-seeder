@@ -46,7 +46,7 @@ class MyController extends Controller
         ]);
 
         $place = Place::create($validatedData);
-        dd($place);
+        return redirect('/place');
     }
 
     /**

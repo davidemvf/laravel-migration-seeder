@@ -17,7 +17,8 @@
 
       <label for="nation">Nazione</label>
       <input type="text" name="nation" value="">
+
+      <button type="submit">Salva</button>
     </form>
-    <button type="submit">SALVA</button>
   </div>
 @endsection
