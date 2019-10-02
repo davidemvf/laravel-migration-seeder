@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/place', 'MyController@index') -> name('place.index');
+Route::get('/create', 'MyController@create') -> name('place.create');
+Route::post('/store', 'MyController@store') -> name('place.store');
