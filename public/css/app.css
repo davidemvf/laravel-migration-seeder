@@ -39,12 +39,6 @@ a {
   padding: 20px;
 }
 
-.add:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 form {
   width: 200px;
   display: flex;
@@ -58,6 +52,5 @@ button {
   border: 1px solid red;
   border-radius: 3px;
   margin-top: 20px;
-  float: right;
 }
 
